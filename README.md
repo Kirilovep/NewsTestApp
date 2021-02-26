@@ -1,5 +1,5 @@
 # NewsTest App
- App for searching movies <br />
+ App for searching news <br />
  [Use API](https://newsapi.org/docs/get-started   )
 ## Features:
   - Displaying world news.
