@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="newsCell" rowHeight="171" id="KGk-i7-Jjw" customClass="NewsTableViewCell" customModule="NewsTestApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="171"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="171"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGC-Vz-F29">
+                        <rect key="frame" x="158" y="10" width="0.0" height="0.0"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Source" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQ9-XH-MKX">
+                        <rect key="frame" x="20" y="136" width="44.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bayer-Aktie schließt deutlich tiefer: Bayer senkt nach Milliardenverlust die Dividende - finanzen.net" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yPI-70-jjb">
+                        <rect key="frame" x="20" y="5" width="388" height="41"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Der Agrarchemie- und Pharmakonzern Bayer ringt weiterhin mit Gegenwind durch die schwachen Währungen Lateinamerikas." lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eqh-lh-tLN">
+                        <rect key="frame" x="187" y="47" width="212" height="67"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AsV-7O-jma">
+                        <rect key="frame" x="20" y="153.5" width="38" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bayer_360b_660_02" translatesAutoresizingMaskIntoConstraints="NO" id="TRZ-aI-RtA">
+                        <rect key="frame" x="20" y="51" width="159" height="77"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="77" id="QEp-VL-Gc0"/>
+                            <constraint firstAttribute="width" constant="159" id="WIL-zM-Im0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0PG-aV-KgI">
+                        <rect key="frame" x="368.5" y="143" width="35.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yPI-70-jjb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="3QC-fJ-Yqm"/>
+                    <constraint firstItem="MQ9-XH-MKX" firstAttribute="top" secondItem="TRZ-aI-RtA" secondAttribute="bottom" constant="8" symbolic="YES" id="6AP-7I-KGy"/>
+                    <constraint firstItem="AsV-7O-jma" firstAttribute="top" secondItem="MQ9-XH-MKX" secondAttribute="bottom" constant="1.5" id="6nT-i7-4KB"/>
+                    <constraint firstItem="TRZ-aI-RtA" firstAttribute="top" secondItem="yPI-70-jjb" secondAttribute="bottom" constant="5" id="7MI-C9-fH7"/>
+                    <constraint firstItem="AsV-7O-jma" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="Cig-71-XZe"/>
+                    <constraint firstItem="Eqh-lh-tLN" firstAttribute="top" secondItem="yPI-70-jjb" secondAttribute="bottom" constant="1" id="F1l-du-cp6"/>
+                    <constraint firstItem="TRZ-aI-RtA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="L3e-fv-lJi"/>
+                    <constraint firstItem="yPI-70-jjb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="LMf-H0-LlU"/>
+                    <constraint firstItem="AsV-7O-jma" firstAttribute="leading" secondItem="TRZ-aI-RtA" secondAttribute="leading" id="ap1-FF-6R1"/>
+                    <constraint firstAttribute="trailing" secondItem="0PG-aV-KgI" secondAttribute="trailing" constant="10" id="cxW-ek-55R"/>
+                    <constraint firstAttribute="trailing" secondItem="Eqh-lh-tLN" secondAttribute="trailing" constant="15" id="g0Z-2Q-9an"/>
+                    <constraint firstItem="Eqh-lh-tLN" firstAttribute="leading" secondItem="TRZ-aI-RtA" secondAttribute="trailing" constant="8" symbolic="YES" id="ggc-yv-DYr"/>
+                    <constraint firstAttribute="bottom" secondItem="0PG-aV-KgI" secondAttribute="bottom" constant="11" id="hvZ-Ms-ZQk"/>
+                    <constraint firstItem="MQ9-XH-MKX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="p1i-gc-Tg6"/>
+                    <constraint firstItem="MQ9-XH-MKX" firstAttribute="leading" secondItem="TRZ-aI-RtA" secondAttribute="leading" id="pDS-v8-KGm"/>
+                    <constraint firstAttribute="trailing" secondItem="yPI-70-jjb" secondAttribute="trailing" constant="6" id="wLH-CZ-4Rh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="authorLabel" destination="AsV-7O-jma" id="2bm-zd-4aV"/>
+                <outlet property="descriptionLabel" destination="Eqh-lh-tLN" id="NaS-Cf-soL"/>
+                <outlet property="newsImageView" destination="TRZ-aI-RtA" id="l5S-x2-Rco"/>
+                <outlet property="sourceNameLabel" destination="MQ9-XH-MKX" id="9fT-hh-Ejg"/>
+                <outlet property="timeLabel" destination="0PG-aV-KgI" id="bM0-Ls-Wz5"/>
+                <outlet property="titleLabel" destination="yPI-70-jjb" id="xC5-sK-b01"/>
+            </connections>
+            <point key="canvasLocation" x="-336.23188405797106" y="90.066964285714278"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bayer_360b_660_02" width="660" height="303"/>
+    </resources>
+</document>
